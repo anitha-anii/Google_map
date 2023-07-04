@@ -218,23 +218,7 @@ function displayPostOffices(data) {
     postOfficeContainer.appendChild(postOfficeElement);
   });
 }
-//filter
-function filtersearch() {
-  const filter = searchBox.value.toUpperCase();
-  const postOfficeList = document.getElementById("postOfficeList");
-  const listItems = postOfficeList.getElementsByTagName("ul");
 
-  for (let i = 0; i < listItems.length; i++) {
-    const listItem = listItems[i];
-    const text = listItem.textContent || listItem.innerText;
-    if (text.toUpperCase().indexOf(filter) > -1) {
-      listItem.style.display = "";
-    }
-    else {
-        listItem.style.display = "none";
-      }
-    }
-  }
     function createParagraphElement(label, value) {
     let paragraphElement = document.createElement('p');
     paragraphElement.textContent = label + ': ' + value;
