@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Location{
+    margin: 20px;
+}
+#heading{
+    display:inline;
+    padding: 10px;
+    margin: 20px;
+  }
+.getdata{
+    background-color: black;
+    color: white;
+    width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+   display: block;
+    box-shadow: 0px 5px 10px 0px rgb(0, 0, 0.5);
+    cursor: pointer;
+   margin-top: 10px;
+   margin-left: 50px;
+}
+span{
+    font-size: 25px;
+    font-weight: 100;
+}
+#postOfficeContainer {
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap:20px;
+   margin: 20px;
+ }
+ 
+ #info{
+  margin: 10px;
+     display: flex;
+     justify-content: space-between;
+   
+ }
+ #info2{
+    margin: 10px;
+ }
+ .postOfficeElement{
+   border:1px solid black;
+   margin:10px;
+   padding:20px;
+
+    border-radius: 10px;
+ }
+ input{
+   width:80%;
+   height: 20px;
+   padding: 10px;
+   font-size: 16px;
+   margin: 20px;
+   display: none;
+ }
+ /* p{
+    font-weight: 600;
+ } */
+.vpara{
+    font-weight: 600;
+}
